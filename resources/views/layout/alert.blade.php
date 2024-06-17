@@ -1,0 +1,11 @@
+@if(session('yes'))
+<div class="alert alert-success">
+    {{ session('yes')}}
+</div>
+@endif
+
+@if(session('no'))
+<div class="alert alert-danger">
+    {{ session('no')}}
+</div>
+@endif
