@@ -1,0 +1,18 @@
+вот это включить:
+скачать php
+разархивировать и добавить путь из папки в PATH
+
+скачать компосер, если все правильно автоматически покажется путь к php
+
+extension=curl
+extension=fileinfo
+extension=openssl
+extension=pdo_mysql
+extension=zip
+extension_dir = "ext"
+
+extension=pdo_sqlite
+extension=mbstring
+
+composer global require laravel/installer
+composer create-project laravel/laravel:^9.0 example-app
