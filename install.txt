@@ -16,3 +16,6 @@ extension=mbstring
 
 composer global require laravel/installer
 composer create-project laravel/laravel:^9.0 example-app
+
+
+cd /d "полный путь к проекту"
