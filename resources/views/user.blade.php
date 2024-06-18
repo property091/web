@@ -4,7 +4,7 @@
 
 @section('content') 
 @foreach($claims as $claim)
-    {{ $claim->user_id}}
+    {{ $claim->getStatus($claim->user_id)}}
     {{ $claim->description}}
     <br>
 @endforeach
