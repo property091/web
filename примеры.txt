@@ -1,5 +1,2 @@
-пример вьюшек
-https://github.com/pmswga/wsr-training/tree/main/module%201/example-app/resources/views
-
-пример контроллеров
-https://github.com/pmswga/wsr-training/tree/main/module%201/example-app/app/Http/Controllers
+получение модели пользователя по товару
+return $this->hasOne(User::class, 'id', 'user_id')->first();
